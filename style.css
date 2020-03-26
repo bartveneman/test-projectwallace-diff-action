@@ -10,7 +10,8 @@ body {
 
 button {
   -webkit-appearance: none;
-  background-color: deepskyblue; 
+  background-color: deepskyblue;
+  font-size: 1rem;
 }
 
 button:focus {
