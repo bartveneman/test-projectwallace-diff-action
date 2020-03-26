@@ -7,3 +7,12 @@ html {
 body {
   background-color: whitesmoke;
 }
+
+button {
+  -webkit-appearance: none;
+  background-color: deepskyblue; 
+}
+
+button:focus {
+  outline: 1px dotted;
+}
