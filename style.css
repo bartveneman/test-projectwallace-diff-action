@@ -3,3 +3,7 @@ html {
   color: blue;
   animation-duration: 2s;
 }
+
+body {
+  background-color: whitesmoke;
+}
