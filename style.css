@@ -7,3 +7,14 @@ html {
 body {
   background-color: whitesmoke;
 }
+
+button {
+  -webkit-appearance: none;
+  background-color: deepskyblue;
+  font-size: 1rem;
+}
+
+button:focus {
+  outline: 1px dotted;
+  background-color: blue;
+}
