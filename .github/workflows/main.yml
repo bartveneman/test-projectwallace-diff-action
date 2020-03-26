@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: CSS Analytics Diff
-        uses: bartveneman/gh-action-css-diff@0.1
+        uses: bartveneman/gh-action-css-diff@master
         with:
           project-wallace-token: ${{ secrets.PROJECT_WALLACE_TOKEN }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
